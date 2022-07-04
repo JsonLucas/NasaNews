@@ -4,7 +4,7 @@ const style = StyleSheet.create({
     Container: {
         width: '100%',
         height: '50px',
-        backgroundColor: 'black',
+        backgroundColor: 'transparent',
         justifyContent: 'center',
         alignItems: 'center'
     },

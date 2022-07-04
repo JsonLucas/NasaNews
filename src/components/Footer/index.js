@@ -1,7 +1,6 @@
 import { TouchableOpacity, View } from "react-native";
 import style from "./style";
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faMugSaucer } from '@fortawesome/free-solid-svg-icons/faMugSaucer';
 import { faHome } from '@fortawesome/free-solid-svg-icons/faHome';
 import { faStar } from '@fortawesome/free-solid-svg-icons/faStar';
 import { faListDots } from '@fortawesome/free-solid-svg-icons/faListDots';

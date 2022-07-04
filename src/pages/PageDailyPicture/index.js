@@ -1,4 +1,5 @@
 import { Fragment, useState } from "react";
+import { SafeAreaView } from "react-native";
 import DailyImageInfo from "../../components/DailyImageInfo";
 import DailyPicture from "../../components/DailyPicture";
 import Footer from "../../components/Footer";
@@ -8,11 +9,9 @@ export default function PageDailyPicture() {
     const [showInfo, setShowInfo] = useState(false);
     const [info, setInfo] = useState('');
     return (
-        <Fragment>
-            <Header />
+        <SafeAreaView style={{flex: 1, backgroundColor: '#fff', overflowY: 'scroll'}}>
             <DailyPicture setShowInfo={setShowInfo} setInfo={setInfo} />
             <DailyImageInfo showInfo={showInfo} info={info} />
-            <Footer />
-        </Fragment>
+        </SafeAreaView>
     );
 }
